@@ -1,0 +1,121 @@
+/* Nav Bar */
+
+.nav {
+    margin: 0;
+  }
+
+.navul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 24%;
+    background-color: #000;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+  }
+  
+  .navli a {
+    display: block;
+    color: #c6c4c4;
+    padding: 8px 16px;
+    text-decoration: none;
+    
+  }
+
+  
+  li a.active {
+    /* background-color: #04AA6D; */
+    color: white;
+  }
+  
+  /* li a:hover:not(.active) {
+    background-color: #555;
+    color: white;
+  } */
+
+ .navli a:hover {
+    color: white;
+  }
+  
+  #li a {
+    text-transform: uppercase;
+  }
+  
+
+
+  .banner1 img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 94%;
+    height: 19vw;
+  }
+
+  
+
+
+
+.played{
+  margin-top: 2vw;
+}
+.played p{
+  font-family: sans-serif;
+  font-size: 1.5vw;
+  font-weight: bold;
+}
+
+
+
+
+
+
+div.gallery {
+  border: 1px solid #ccc;
+}
+
+div.gallery:hover {
+  border: 1px solid #777;
+}
+
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+} 
+
+.responsive {
+  padding: 16px 6px;
+  float: left;
+  width: 24.99999%;
+}
+
+@media only screen and (max-width: 700px) {
+  .responsive {
+    width: 49.99999%;
+    margin: 6px 0;
+  }
+}
+
+@media only screen and (max-width: 500px) {
+  .responsive {
+    width: 100%;
+  }
+}
+
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+
+
